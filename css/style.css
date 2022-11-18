@@ -6,21 +6,24 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1200px;
-  background: #ffffff;
+  width: 1240px;
+  background: #d7fcdf;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
 /* main contant section */
 .main-contant {
-  padding: 100px 90px;
+  padding: 70px 50px 70px 70px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .main-contant-title {
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 24px;
+  text-transform: uppercase;
   line-height: 27px;
   color: #000000;
   margin-bottom: 10px;
@@ -35,7 +38,7 @@ body {
   margin: 0 0 20px 0;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 28px;
   line-height: 17px;
   color: #000000;
 }
@@ -47,21 +50,21 @@ body {
   font-weight: bold;
   font-size: 45px;
   line-height: 55px;
-  /* text-shadow: 0px 4px 4px */
+  /* text-shadow: 0px 1px 2px; */
 }
 
 .about-me-description {
-  width: 600px;
+  width: 720px;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
 }
 
 /* my projects section */
 .my-projects {
-  margin: 0 0 50px 0;
+  margin: 0 0 40px 0;
 }
 
 .my-projects-list {
@@ -77,6 +80,8 @@ body {
 }
 
 .my-projects-text {
+  display: flex;
+  justify-content: space-between;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -87,9 +92,14 @@ body {
 .my-projects-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
+}
+
+.my-projects-description {
+  font-weight: normal;
+  margin-top: 0;
 }
 
 .my-projects-bracket {
@@ -103,7 +113,7 @@ body {
 /* my work experience section */
 
 .my-work-experience {
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 .my-work-experience-company-block {
@@ -185,8 +195,8 @@ body {
 
 /* sidebar section */
 .sidebar-section {
-  width: 370px;
-  padding: 40px 0;
+  width: 650px;
+  padding: 70px 0;
   background: #0e2e22;
 }
 
@@ -196,7 +206,7 @@ body {
 
 .contacts-section,
 .skills-section {
-  margin: 50px 0 0 40px;
+  margin: 50px 0 0 60px;
 }
 
 .sidebar-title {
@@ -219,9 +229,9 @@ body {
 }
 .contacts-section-link {
   display: block;
-  color: #565e6a;
+  color: #ffffff;
   font-style: normal;
-  font-weight: bold;
+  font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   text-decoration: none;
