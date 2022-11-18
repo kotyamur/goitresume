@@ -94,7 +94,7 @@ body {
 
 .my-projects-bracket {
   font-style: normal;
-  font-weight: bold;
+  /* font-weight: bold; */
   font-size: 14px;
   line-height: 24px;
   color: #000000;
