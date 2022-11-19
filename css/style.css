@@ -17,6 +17,7 @@ body {
   padding: 70px 50px 70px 70px;
   font-size: 16px;
   font-weight: bold;
+  flex-basis: 0;
 }
 
 .main-contant-title {
@@ -75,7 +76,7 @@ body {
   color: #000000;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
 }
 
@@ -84,7 +85,7 @@ body {
   justify-content: space-between;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #595959;
   margin-left: 5px;
@@ -100,12 +101,13 @@ body {
 .my-projects-description {
   font-weight: normal;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .my-projects-bracket {
   font-style: normal;
   /* font-weight: bold; */
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #000000;
 }
@@ -175,7 +177,7 @@ body {
 .my-education-specialty {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 17px;
   color: #000000;
   margin: 0 0 10px 0;
@@ -195,7 +197,7 @@ body {
 
 /* sidebar section */
 .sidebar-section {
-  width: 650px;
+  /* flex-basis: 350px; */
   padding: 70px 0;
   background: #0e2e22;
 }
@@ -222,7 +224,7 @@ body {
 /* contacts section */
 .contacts-section-type {
   font-weight: bold;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
   margin-right: 7px;
@@ -232,7 +234,7 @@ body {
   color: #ffffff;
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   text-decoration: none;
 }
@@ -249,7 +251,7 @@ body {
 .skills-item-text {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #ffffff;
 }
