@@ -33,7 +33,7 @@ body {
 
 /* about me section */
 .about-me {
-  margin: 0 0 40px 0;
+  margin: 0 0 35px 0;
 }
 
 .about-me-profession {
@@ -47,7 +47,7 @@ body {
 
 .about-me-name {
   color: #1e0139;
-  margin: 0 0 25px 0;
+  margin: 0 0 20px 0;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -139,7 +139,7 @@ body {
 .my-work-experience-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
   color: #1e0139;
   margin: 0 0 10px 0;
@@ -156,7 +156,7 @@ body {
 .my-work-experience-duty {
   font-style: normal;
   font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #1e0139;
 }
@@ -187,7 +187,7 @@ body {
 .my-education-period {
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
+  font-size: 16px;
   line-height: 15px;
   color: #1e0139;
 }
@@ -242,6 +242,9 @@ body {
   line-height: 24px;
   text-decoration: none;
   margin-bottom: 7px;
+}
+.contacts-section-link-undeline {
+  text-decoration: underline;
 }
 
 /*  skills section */
