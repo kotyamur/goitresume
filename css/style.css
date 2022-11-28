@@ -7,9 +7,10 @@ body {
   display: flex;
   flex-direction: row-reverse;
   width: 1240px;
-  background: #d7fcdf;
+  background: #ffffff;
   margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+  color: #000000;
 }
 
 /* main contant section */
@@ -26,7 +27,7 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   line-height: 27px;
-  color: #000000;
+  color: #1e0139;
   margin-bottom: 10px;
 }
 
@@ -41,15 +42,15 @@ body {
   font-weight: bold;
   font-size: 28px;
   line-height: 17px;
-  color: #000000;
+  color: #1e0139;
 }
 
 .about-me-name {
-  color: #000000;
+  color: #1e0139;
   margin: 0 0 25px 0;
   font-style: normal;
   font-weight: bold;
-  font-size: 45px;
+  font-size: 40px;
   line-height: 55px;
   /* text-shadow: 0px 1px 2px; */
 }
@@ -58,9 +59,9 @@ body {
   width: 720px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
-  color: #595959;
+  /* color: #0e2e22; */
 }
 
 /* my projects section */
@@ -73,7 +74,7 @@ body {
 }
 
 .my-projects-item {
-  color: #000000;
+  color: #1e0139;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -85,17 +86,17 @@ body {
   justify-content: space-between;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
-  color: #595959;
+  color: #000000;
   margin-left: 5px;
 }
 .my-projects-link {
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
-  color: #595959;
+  color: #1e0139;
 }
 
 .my-projects-description {
@@ -109,7 +110,7 @@ body {
   /* font-weight: bold; */
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
+  /* color: #000000; */
 }
 
 /* my work experience section */
@@ -127,12 +128,12 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #000000;
+  /* color: #000000; */
   margin: 0 0 10px 0;
 }
 
 .my-work-experience-company {
-  color: #fb6d3a;
+  color: #a700f5;
 }
 
 .my-work-experience-period {
@@ -140,7 +141,7 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #1e0139;
   margin: 0 0 10px 0;
 }
 
@@ -157,7 +158,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #595959;
+  color: #1e0139;
 }
 
 /* my education section */
@@ -170,7 +171,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #fb6d3a;
+  color: #a700f5;
   margin: 0 0 10px 0;
 }
 
@@ -179,7 +180,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 17px;
-  color: #000000;
+  /* color: #000000; */
   margin: 0 0 10px 0;
 }
 
@@ -188,18 +189,21 @@ body {
   font-weight: normal;
   font-size: 12px;
   line-height: 15px;
-  color: #a8a8a8;
+  color: #053926;
 }
 
-.my-education-divider {
+/* .my-education-divider {
   color: #000000;
-}
+} */
 
 /* sidebar section */
 .sidebar-section {
   /* flex-basis: 350px; */
   padding: 70px 0;
-  background: #0e2e22;
+  background: #f6edff;
+  font-size: 24px;
+  font-weight: 500;
+  /* color: #000000; */
 }
 
 .sidebar-section img {
@@ -216,7 +220,7 @@ body {
   font-weight: bold;
   font-size: 22px;
   line-height: 27px;
-  color: #ffffff;
+  color: #1e0139;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -224,19 +228,20 @@ body {
 /* contacts section */
 .contacts-section-type {
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
-  color: #ffffff;
+  /* color: #ffffff; */
   margin-right: 7px;
 }
 .contacts-section-link {
   display: block;
-  color: #ffffff;
+  color: #000000;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 24px;
   text-decoration: none;
+  margin-bottom: 7px;
 }
 
 /*  skills section */
@@ -245,7 +250,7 @@ body {
 }
 
 .skills-item {
-  color: #fb6d3a;
+  color: #a700f5;
 }
 
 .skills-item-text {
@@ -253,5 +258,5 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #ffffff;
+  color: #000000;
 }
