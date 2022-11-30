@@ -135,7 +135,7 @@ body {
 }
 
 .my-work-experience-company {
-  color: #8d00ce;
+  color: #ae0040;
 }
 
 .my-work-experience-period {
@@ -173,7 +173,7 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 20px;
-  color: #8d00ce;
+  color: #ae0040;
   margin: 0 0 10px 0;
 }
 
@@ -201,8 +201,8 @@ body {
 /* sidebar section */
 .sidebar-section {
   /* flex-basis: 350px; */
-  padding: 70px 0;
-  background: #f6edff;
+  padding: 70px 60px;
+  background: #ffedf5;
   font-size: 24px;
   font-weight: 500;
   /* color: #000000; */
@@ -214,7 +214,7 @@ body {
 
 .contacts-section,
 .skills-section {
-  margin: 50px 0 0 60px;
+  margin: 50px 0 0 0;
 }
 
 .sidebar-title {
@@ -255,7 +255,7 @@ body {
 }
 
 .skills-item {
-  color: #8d00ce;
+  color: #ae0040;
 }
 
 .skills-item-text {
