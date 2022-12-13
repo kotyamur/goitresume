@@ -7,7 +7,7 @@ body {
 .main-container {
   display: flex;
   flex-direction: row-reverse;
-  width: 1300px;
+  width: 1270px;
   background: #ffffff;
   /* margin: 40px auto;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1); */
@@ -34,11 +34,11 @@ body {
 
 /* about me section */
 .about-me {
-  margin: 0 0 35px 0;
+  margin: 0 0 28px 0;
 }
 
 .about-me-profession {
-  margin: 0 0 20px 0;
+  margin: 0 0 16px 0;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -48,7 +48,7 @@ body {
 
 .about-me-name {
   color: #1e0139;
-  margin: 0 0 20px 0;
+  margin: 0 0 16px 0;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -68,7 +68,7 @@ body {
 
 /* my projects section */
 .my-projects {
-  margin: 0 0 40px 0;
+  margin: 0 0 36px 0;
 }
 
 .my-projects-list {
@@ -119,7 +119,7 @@ body {
 /* my work experience section */
 
 .my-work-experience {
-  margin-bottom: 40px;
+  margin-bottom: 28px;
 }
 
 .my-work-experience-company-block {
@@ -132,7 +132,7 @@ body {
   font-size: 16px;
   line-height: 20px;
   /* color: #000000; */
-  margin: 0 0 10px 0;
+  margin: 0 0 4px 0;
 }
 
 .my-work-experience-company {
@@ -166,7 +166,7 @@ body {
 
 /* my education section */
 .my-education {
-  margin: 30px 0 0 0;
+  margin: 24px 0 0 0;
 }
 
 .my-education-university {
@@ -184,7 +184,7 @@ body {
   font-size: 16px;
   line-height: 17px;
   /* color: #000000; */
-  margin: 0 0 10px 0;
+  margin: 0 0 4px 0;
 }
 
 .my-education-period {
@@ -193,6 +193,7 @@ body {
   font-size: 16px;
   line-height: 15px;
   color: #1e0139;
+  margin-top: 0;
 }
 
 /* .my-education-divider {
